@@ -1,0 +1,237 @@
+*{box-sizing:border-box;
+    margin:0;
+    padding:0;}
+
+
+body{
+    font-family: 'Square Peg', cursive;
+    font-size: 16px;
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%2341c6c2' fill-opacity='0.4' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+a{color:white;
+    text-decoration: none;}
+
+ul{list-style: none;}
+
+.contenedor-nav{width:100%;
+                margin:auto;
+                background-color: #000000;
+                height:75px;}
+
+/* Navegación */
+
+.nav-main { font-size: 25px;
+            display:flex;
+            align-items: center;
+            height: 60px;
+            margin-right: 50px;
+            padding: 50px 0;}
+
+.nav-main h1{font-size:40px;
+            color:white;
+            display:flex;
+            justify-content: flex-start;
+            margin:0;}
+
+            
+
+
+.nav-main img {width:50px;
+    height:50px;}
+
+.nav-main ul{display: flex;}
+.nav-main li{padding: 40px;}
+.nav-main .Contenedor-titulo h1{flex:1;
+                                margin-left: 20px;}
+
+.Contenedor-enlaces li a:hover{color: aqua;
+                                transition: all 0.5s ease;
+                                text-decoration: underline;}
+
+
+/* banner */
+
+#imagen-principal{padding:0 50px;
+                    margin:0;
+                    background-image: url('imagenes/boitumelo-phetla-0DJHJcpwN9Q-unsplash.jpg');
+                    height: 80vh;
+                    background-size: cover;
+                    background-position: center;}
+
+#imagen-principal::before{content: '';
+                            background: #D1008B;
+                            position: absolute;
+                            height: 80vh;
+                            width: 100%;
+                            left: 0;}
+
+.contenido-imagen h1{font-size: 50px;
+                    padding: 250px 0;
+                    font-family: 'Courier New', Courier, monospace;
+                    text-align: center;
+                    position: relative;
+                    text-transform: uppercase;
+                    display: flex;
+                    justify-content: center;
+                    color: white;
+                    height: 100%;}
+
+/*Sobre mi*/
+
+#Contenedor-sobre-mi{
+                    padding: 50px 50px;
+                    color: white;
+                    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    font-size: 17px;
+                    text-align: center;}
+
+
+#Contenedor-sobre-mi h1{font-size: 50px;
+                        color: #00ffff;
+                        text-transform: uppercase;
+                        text-decoration: underline;
+                        margin-bottom: 30px;}
+
+                        
+
+#Contenedor-sobre-mi img{border-radius: 60%;
+                        width:250px;
+                        height: 250px;
+                        background-size: cover;
+                        background-position: center;
+                        object-fit: cover;
+                        display:flex;
+                        margin: 0px auto;
+                        align-items: center;
+                        justify-content: center;
+                        margin-bottom: 20px;}
+
+#Contenedor-sobre-mi p{width: 45%;
+                        font-weight: bold;
+                        margin: 0px auto;}
+
+
+
+/*Proyecto*/
+
+#Contenedor-Proyecto{width:1020px;
+                    height: 850px;
+                    display: flex;
+                    background-color: #000000;
+                    flex-wrap: wrap;
+                    margin: 0 auto;
+                    align-content: center;}
+
+#Contenedor-Proyecto h1{text-align: center;
+                    display: flex;
+                    justify-content: center;
+                    position: relative;
+                        color: aqua;
+                        font-size: 50px;}
+                        
+#Contenedor-Proyecto p {Color:white;
+                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        display: flex;
+                        margin-left: 80px;
+                        text-align: center;
+                        margin-bottom: 20px;
+                        width: 80%;}              
+
+                
+.Contenido-Proyecto img{width: 300px;
+                        height: 300px;
+                        margin: 10px;}
+
+.Titulo-Imagen{color: aqua;
+                font-size: 10px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                text-align: center;}
+
+
+/* Formulario */
+
+
+
+#Contenedor-formulario{
+    background-color: #000000;
+    border: 4px double aqua;
+    padding: 50px;
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: 30px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Contenedor-formulario h2{
+    margin-bottom: 15px;
+    font-size: 35px;
+    color: aqua;
+}
+#Contenedor-formulario p{
+    font-size: 17px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: white;
+}
+#Contenedor-formulario a{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: white;
+    font-weight: 700;
+}
+#Contenedor-formulario a i{
+    color: aqua;
+    margin-right: 10px;
+}
+#Contenedor-formulario form .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 16px;
+    border: 4px solid aqua;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+#Contenedor-formulario form textarea{
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+}
+#Contenedor-formulario .btn-enviar{
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: aqua;
+    color: #003C70;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+#Contenedor-formulario .btn-enviar:hover{
+    background: rgb(3, 129, 129);
+    color:white;
+}
+
+footer{background: #000000;
+        width: 100%;
+        height: 100px;
+        margin-top: 30px;}
+
+footer p{text-align: center;
+        color: white;
+        font-size: 30px;
+        margin-top: 30px;
+        font-family: 'Courier New', Courier, monospace;
+        text-transform: uppercase;}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+<head>
+        <title>Mi Pagina Web</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="webdaniel.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet"> 
+        <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+    <!--Menú de Navegación-->
+
+    <div class="contenedor-nav" role="banner">
+        <nav class="nav-main">
+            <img src="imagenes/milo-venus.png" alt="logo-cabecera">
+            <h1>Daniel Illana</h1>
+        
+        <div class="Contenedor-menu">
+            <ul class="Contenedor-enlaces">
+            <li><a href="#imagen-principal">Inicio</a></li>
+            <li><a href="#Contenedor-sobre-mi">Sobre Mí</a></li>
+            <li><a href="#Contenedor-Proyecto">Proyectos</a></li>
+            <li><a href="#Contenedor-formulario">Contacto</a></li>
+            </ul>
+        </div>
+        </nav>
+    </div>
+
+    <!--Banner-->
+
+    <section id="imagen-principal">
+        <div class="contenido-imagen">
+            <h1>Bienvenido a mi página web <br> oficial</h1>
+        </div>
+    </section>
+
+    
+    <!--Sección Sobre Mí-->
+
+
+    <section id="Contenedor-sobre-mi">
+    
+    <h1>¿Quien soy?</h1>
+    
+    <img src="imagenes/Imagen_Daniel.jpg" alt="Imagen-Personal">
+
+    <p>¡Hola! Mi nombre es Daniel , soy un Diseñador gráfico , con estudios de  Diseño y Edición de publicaciones impresas y multimedia en IES el tablero (Córdoba).
+        En mis ratos libres me gusta enfocarme en el Desarrollo web , mis conocimientos en este campo serían html , css , y programación web con JavaScript.
+        
+    </p>
+    </section> 
+
+    
+    <!--Sección Proyecto-->
+
+    <section id="Contenedor-Proyecto">
+        <div>
+        <h1>Mis proyectos</h1>
+        
+        <p>Aqui puedes ver una Galeria de fotos en las que muestro una serie de trabajos que he ido haciendo como estudiante de Diseño y Edición de publicaciones impresas y multimedia, espero que sean de tu agrado.</p>
+        </div>
+        <div class="Contenido-Proyecto">
+        <div class="Titulo-Imagen">
+        <h1>Vino ECO</h1>
+        </div>
+        <div class="imagen-proyecto">
+        <img src="imagenes/Wine_Bottle_Mockups_3.jpg" alt="Botella-Eccuo">
+        </div>
+        <div class="texto-proyecto"><p></p></div>
+        
+    </div>
+
+    <div class="Contenido-Proyecto">
+        <div class="Titulo-Imagen">
+            <h2>Revista Andalucía Turismo</h2>
+            </div>
+        <div class="imagen-proyecto">
+        <img src="imagenes/MagazineMockupV3.png" alt="Imagen-Revista">
+        </div>
+    </div>
+    
+    <div class="Contenido-Proyecto">
+        <div class="Titulo-Imagen">
+            <h2>Póster Publicitario Zapatillas Zebra</h2>
+        </div>
+        <div class="imagen-proyecto">
+        <img src="imagenes/A0_PSD_Poster_Mockup.png" alt="Poster-Zebra">
+        </div>
+    </div>
+
+
+    <div class="Contenido-Proyecto">
+        <div class="Titulo-Imagen">
+            <h2>Carátula Disco Simbiosis</h2>
+        </div>
+        <div class="imagen-proyecto">
+        <img src="imagenes/Free_Cd_Jewel_Case_Mockup_5.jpg" alt="Imagen-Disco">
+        </div>
+    </div>
+
+    <div class="Contenido-Proyecto">
+        <div class="Titulo-Imagen">
+            <h2>Poster Tienda de Musica Vintage</h2>
+        </div>
+        <div class="imagen-proyecto">
+        <img src="imagenes/Leaflet_DL_Mockup_1.jpg" alt="Imagen-Mockup">
+        </div>
+    </div>
+
+    
+    <div class="Contenido-Proyecto">
+        <div class="Titulo-Imagen">
+            <h2>Tarjeta de Visita Hands Motors</h2>
+        </div>
+        <div class="imagen-proyecto">
+        <img src="imagenes/Mockup_Tarjeta_de_visita.jpg" alt="Imagen-Tarjeta">
+        </div>  
+    </div>
+
+
+    </section>
+
+
+    <!--Sección Formulario-->
+
+    <div id="Contenedor-formulario">
+        <div class="Contenido-formulario">
+            <h2>Contacta Conmigo</h2>
+            <p>¿Te gusta lo que ves? , Si tienes alguna sugerencia que pueda mejorar la página web o simplemente estas interesado en saber un poco mas sobre mi,
+                Solo Rellena los campos que verás en tu derecha , intentaré responderte lo antes posible </p>
+                <a href="#"><i class="fa-solid fa-location-dot">622-373-483</i></a>
+                <a href="#"><i class="fa fa-envelope"></i> danielillanaalba@gmail.com</a>
+                <a href="#"><i class="fa fa-map-marked"></i>Jaén, España</a>
+        </div>
+        <form action="#" autocomplete="off" method="get">
+            <label for="nombre">nombre</label>
+            <input type="text" name="nombre" placeholder="Tu Nombre" class="campo" id="nombre">
+            
+            <label for="email">email</label>
+            <input type="email" name="email" placeholder="Tu Email" class="campo" id="email">
+            
+            <label for ="mensaje">mensaje</label>
+            <textarea name="mensaje" placeholder="Tu Mensaje..." id="mensaje"></textarea>
+
+            <label for="enviar-mensaje">enviar</label>
+            <input type="submit" name="enviar" value="Enviar Mensaje" class="btn-enviar" id="enviar-mensaje">
+        </form>
+    </div>
+
+
+    <!--Sección Footer-->
+    
+    <footer>
+        <p> Derechos reservados a Daniel Illana Alba </p>
+    </footer>
+
+ 
+
+</body>
+
+    
+</html>
